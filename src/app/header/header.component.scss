@@ -237,7 +237,7 @@ main{
       overflow: hidden;
       background-image: url('../../assets/logophone.jpeg');
       img{
-        opacity: 0;
+        display: none;
       }}
     .dark-mode{
       .container{
@@ -245,7 +245,7 @@ main{
       }
     }
   }
-@media (max-width:1600px){
+@media (min-width:800px){
     .cover{
       height:100%;
       background-size: contain !important;
