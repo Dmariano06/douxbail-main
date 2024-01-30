@@ -81,17 +81,17 @@ window.addEventListener('scroll', () => {
     this.darkModeService.toggleDarkMode();
     this.isDarkMode = !this.isDarkMode;
     if (this.isDarkMode) {
-      button.innerText = 'LIGHT';
-      button1.innerText = 'LIGHT';
-      
-    } else {
       button.innerText = 'DARK';
       button1.innerText = 'DARK';
+      
+    } else {
+      button.innerText = 'LIGHT';
+      button1.innerText = 'LIGHT';
     }
   }
 
   goToCurrentPage() {
-    this.router.navigateByUrl('/header').then(() => {
+    this.router.navigateByUrl('/home').then(() => {
       setTimeout(() => {
         const element = document.getElementById('top');
         if (element) {

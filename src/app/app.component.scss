@@ -9,6 +9,9 @@ main{
 }
 footer{
   color: white;
+  svg{
+    margin: 5px;
+  }
 }
 a{
   cursor: pointer;
@@ -20,6 +23,7 @@ a{
 hr{
     color: #c0c0c0;
 }
+
 
 .navbar {
   font-family: 'Bungee', cursive;

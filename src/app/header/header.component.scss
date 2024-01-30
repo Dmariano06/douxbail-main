@@ -229,23 +229,19 @@ main{
     }}
   @media (max-width: 800px){
     .cover{
-      background-size: contain;
-      height: 100%;
+      background-size: cover;
+      height: 100vh;
       margin: auto;
+      margin-top: 50px;
       width: 100%;
       overflow: hidden;
-      background-repeat: no-repeat;
-      background-image: url('../../assets/logophone2.png');
+      background-image: url('../../assets/logophone.jpeg');
       img{
         opacity: 0;
       }}
     .dark-mode{
       .container{
         font-family: 'Bungee', cursive;
-      }
-      .cover{
-        background-image: url('../../assets/logophone2.png');
-        background-size: contain;
       }
     }
   }
