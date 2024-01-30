@@ -229,15 +229,15 @@ main{
     }}
   @media (max-width: 800px){
     .cover{
-      background-size: contain;
+      background-size: cover;
       height: 100vh;
       margin: auto;
       margin-top: 50px;
       width: 100%;
       overflow: hidden;
-      background-image: url('../../assets/logophone.jpeg');
+      background-image: url('../../assets/coverphone.jpeg');
       img{
-        display: none;
+        
       }}
     .dark-mode{
       .container{
