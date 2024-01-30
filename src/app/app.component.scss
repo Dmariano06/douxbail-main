@@ -1,6 +1,11 @@
 .collapse{
   justify-content: center;
 }
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 ul{
   list-style: none;
 }
@@ -17,7 +22,7 @@ a{
   cursor: pointer;
 
     font-size: 20px;
-    color: #c0c0c0;
+    color: white;
 
 }
 hr{
